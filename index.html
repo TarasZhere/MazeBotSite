@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./index.css">
+    
+    <title>Maze Bot</title>
+    <!--
+        COLORS USED:
+        #222831     main    mn
+        #393E46     sec     sc
+        #00ABD5     supl    sp1
+        #EEEEEE     supl    sp2
+    -->
+
+</head>
+<body>
+    <div class="fullPage">
+        <header class="">
+            <!-- title -->
+            <h1 class="logo">Maze Bot</h1>
+
+            <div class="download">
+                <button>
+                    <a href="./assets/MazeBot_Setup.msi" download="MazeBot_Setup">DOWNLOAD FOR WINDOWS</a>
+                </button>
+            </div>
+        
+        </header>
+
+        <div class="container">
+            <!-- 
+                intro of the application
+            -->
+            <div class="intro g1">
+                <h3>
+                    About This App
+                </h3>
+                <p class="preface">
+                    Welcome to <strong>Maze Bot</strong>, <br>
+                    With our desktop application you can create mazes of the size you like, and export them in a png file. <br>
+                    Maze Bot uses <strong><a class="tag" href="https://en.wikipedia.org/wiki/Depth-first_search#:~:text=Depth-first%20search%20(DFS),along%20each%20branch%20before%20backtracking." target="_blank">Depth First Search algorithm</a></strong> to generate a random maze.
+                </p>
+                <img class="mazeImg" src="./assets/maze.png" alt="img" >
+            </div>
+            <!-- project for csi class -->
+            <div class="aboutProject g2">
+                <h3>
+                    Why this project?
+                </h3>
+                <p>
+                    This is a project created for our class of <strong>Operating System</strong> (CSI - 345) by the Windows Team<br>
+                    The goal was to creat an application for Windows Operating System. <br>
+                    We used <a class="tag" href="https://docs.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-5.0" target="_blank" rel="WPF">Windows Presentation Foundation</a>'s framework to develop this application. <br>
+                    List of used <code>namespaces</code>:
+                    <code>
+                        <br>
+                        using System;<br>
+                        using System.Collections.Generic;<br>
+                        using System.Windows;<br>
+                        using System.Windows.Controls;<br>
+                        using System.Windows.Media;<br>
+                        using System.Windows.Media.Imaging;<br>
+                        using System.Windows.Shapes;<br>
+                        using System.IO;<br>
+                        using System.Windows.Forms;<br>
+                    </code>
+                </p>
+            </div>
+            <div class="sourceCode g3">
+                <h3>To the source code - GitHub</h3>
+                <p>
+                    if you are interested to see the source code you can visit our <a class="tag" href="https://github.com/TarasZhere/MazeBot" target="_blank" rel="GitHub">Git Hub Repository</a>. <br>
+                    You will find many the following pages:
+                </p>
+                <code>
+                    <ul>
+                        <li>./MazeBot/</li>
+                        <li>
+                            <ul>
+                                <li>..</li>
+                                <li>fonts/Poppins/..</li>
+                                <li>Properties/...</li>
+                                <li>img/...</li>
+                                <li>App.config</li>
+                                <li>App.xaml</li>
+                                <li>App.xaml.cs</li>
+                                <li>Data.cs</li>
+                                <li>MainWindow.xaml</li>
+                                <li>MainWindow.xaml.cs</li>
+                                <li>MazeBot.csproj</li>
+                                <li>Node.cs</li>
+                                <li>Page1.xaml</li>
+                                <li>Page1.xaml.cs</li>
+                                <li>developersPage.xaml</li>
+                                <li>developersPage.xaml.cs</li>
+                                <li>mazeGenerator.xaml</li>
+                                <li>mazeGenerator.xaml.cs</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </code>
+                
+            </div>
+            <!-- developers  -->
+            <div class="developers g4">
+                <h3>Developers</h3>
+                <p>
+                    Windows Team was composed by
+                    <ul class="unList">
+                        <li>Taras Zherebetskyy:</li>
+                        <ul class="extra-padding">
+                            <li> - Implementation of Depth First Search algorithm</li>
+                            <li> - Maze Graphic Display</li>
+                            <li> - Canvas conversion to PNG file</li>
+                            <li> - Page Navigation</li>
+                        </ul>
+                        <li>Bryce Scott:</li>
+                        <ul class="extra-padding">
+                            <li> - Xaml Styler </li>
+                        </ul>
+                        <li>Oliver Stephen:</li>
+                        <ul class="extra-padding">
+                            <li> - Xamal Styler </li>
+                            <li> - Page Content Creator</li>
+                        </ul>
+                    </ul>
+                </p>
+            </div>
+            <!-- McKendree -->
+            <div class="mck g5">
+                <h3>McKendree University</h3>
+                <p>
+                    McKendree University is a nationally ranked, private university offering a variety of undergraduate and graduate programs in the St. Louis region, Southern Illinois and online. As a Bearcat, you’ll join a vibrant community, make valuable connections, and serve others in the world around you. You’ll develop strong leadership skills, learn from expert faculty, and attain the personalized education you deserve.
+                    <a class="tag" href="https://www.mckendree.edu" target="_blank" rel="noopener noreferrer">To McKendree University</a>
+                </p>
+            </div>
+        </div>
+
+        <footer> 
+            <small>
+                &copy; Copyright 2021, <a class="Copyright" rel="stylesheet" target="_blank" href="https://tarasdeveloper.netlify.app" >Taras Zherebetskyy</a>
+            </small> 
+        </footer> 
+    </div>
+</body>
+</html>
